@@ -1,0 +1,50 @@
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  background: #008888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  background: #fdfdfd;
+  border-radius: 4px;
+  width: 80vw;
+  max-width: 600px; /* Adjusted max-width for better responsiveness */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  padding: 1em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img.birthday {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Adjusted spacing below the image */
+}
+
+.text {
+  margin-bottom: 20px; /* Adjusted spacing below the text */
+}
+
+.video-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

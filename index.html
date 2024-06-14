@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>Happy Birthday</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif; /* Apply Google Font */
+    }
+    .card {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .birthday {
+      width: 150px;
+      height: auto;
+    }
+    .text {
+      margin-top: 20px;
+    }
+    .text h1 {
+      font-size: 2em;
+      color: #333;
+    }
+    .text p {
+      font-size: 1.2em;
+      color: #666;
+      line-height: 1.6;
+    }
+    .video-container {
+      margin-top: 20px;
+    }
+    .video-container video {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./birthday.svg" alt="birthday" class="birthday">
+    <div class="text">
+      <h1>Happy Birthday Ananya Kutti!</h1>
+      <p>Wishing you a day filled with happiness and a year filled with joy.</p>
+      <p class="muted">^_^</p>
+    </div>
+    <div class="video-container">
+      <video controls>
+        <source src="greeting.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
